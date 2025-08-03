@@ -1,0 +1,72 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #0d1111;
+}
+/* =============== Code phan chung ================ */
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+/* =============== Code phan header ============== */
+.header {
+  position: sticky;
+  top: -44px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 52px 0 8px;
+}
+.nav {
+  margin-left: auto;
+}
+.nav .list {
+  display: flex;
+}
+.nav a {
+  padding: 8px 19.5px;
+  color: #2f3a3b;
+  font-size: 1.6rem;
+}
+.nav a:hover {
+  font-weight: 600;
+}
+.header .action {
+  margin-left: 149.5px; /* 177 - 19.5 - 8 */
+}
+.sign-in {
+  padding: 8px;
+  color: #494949;
+  font-size: 1.6rem;
+  margin-right: 16px; /* 24 - 8 */
+}
+.sign-up {
+  display: inline-block;
+  padding: 0 16px;
+  min-width: 108px;
+  color: #1ebfc1;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 48px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  text-align: center;
+}
