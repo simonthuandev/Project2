@@ -417,3 +417,27 @@ a {
   border-radius: 50%;
   margin-right: 10px;
 }
+/* ============ code phan stats ============= */
+.stats {
+  padding: 200px 0;
+}
+.stats .body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.stats .info {
+  text-align: center;
+}
+.stats .title {
+  color: var(--primary-color);
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.stats .desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
