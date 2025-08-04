@@ -38,7 +38,10 @@ a {
   background: #1ebfc1;
 }
 .get-start-btn:hover {
+  color: #1ebfc1;
+  background: #fff;
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
 }
 .top-title {
   color: #767e7e;
@@ -541,4 +544,26 @@ a {
 .feedbacks .ava6 {
   bottom: 29px;
   right: 32px;
+}
+/* ============ Code phan admit ========== */
+.admit {
+  padding: 76px 0 88px;
+  background: #DEF6F5;
+}
+.admit .body {
+  display: flex;
+  align-items: center;
+}
+.admit .heading-lv2 {
+  color: #070707;
+}
+.admit .desc {
+  margin-top: 18px;
+  width: 397px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+.admit .get-start-btn {
+  margin-left: 410px;
 }
