@@ -255,3 +255,57 @@ a {
   font-size: 1rem;
   font-weight: 500;
 }
+/* ============= Code phan features ============== */
+.features {
+  background: #fff;
+  padding: 130px 0 65px;
+}
+.features .body {
+  width: 87.5%;
+}
+.features .top-title {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.features .heading {
+  width: 577px;
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33;
+}
+.features .desc {
+  width: 590px;
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+.feature-list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.feature-item {
+  flex-basis: 21.7%;
+}
+.feature-icon {
+  width: 102px;
+  height: 106px;
+  object-fit: cover;
+}
+.feature-item .title {
+  margin-top: 26px;
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: normal;
+}
+.feature-item .detail {
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 1.69;
+  margin-top: 16px;
+}
