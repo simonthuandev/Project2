@@ -548,7 +548,7 @@ a {
 /* ============ Code phan admit ========== */
 .admit {
   padding: 76px 0 88px;
-  background: #DEF6F5;
+  background: #def6f5;
 }
 .admit .body {
   display: flex;
@@ -566,4 +566,40 @@ a {
 }
 .admit .get-start-btn {
   margin-left: 410px;
+}
+/* ========== code phan footer ============ */
+.footer {
+  background: #fff;
+  padding: 130px 0 50px;
+}
+.footer .body {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer .list a {
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+  display: inline-block;
+  margin-top: 18px;
+}
+.footer .list a:hover {
+  text-shadow: 1px 0 0 #000;
+}
+.footer .social a {
+  display: flex;
+  gap: 9px;
+}
+.footer .copyright {
+  margin-top: 80px;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  line-height: normal;
+  text-align: center;
 }
