@@ -25,10 +25,27 @@ a {
 .btn:hover {
   opacity: 0.8;
 }
+.get-start-btn {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 0 16px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  min-width: 186px;
+  line-height: 68px;
+  border-radius: 14px;
+  background: #1ebfc1;
+}
+.get-start-btn:hover {
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+}
 /* =============== Code phan header ============== */
 .header {
+  z-index: 1;
   position: sticky;
   top: -44px;
+  background: #fff;
 }
 .header .body {
   display: flex;
@@ -46,14 +63,14 @@ a {
   color: #2f3a3b;
   font-size: 1.6rem;
 }
-.nav a:hover {
-  font-weight: 600;
+.nav a:hover,
+.sign-in:hover {
+  text-shadow: 1px 0 0 currentColor;
 }
 .header .action {
-  margin-left: 149.5px; /* 177 - 19.5 - 8 */
+  padding-left: 149.5px; /* 177 - 19.5 - 8 */
 }
 .sign-in {
-  padding: 8px;
   color: #494949;
   font-size: 1.6rem;
   margin-right: 16px; /* 24 - 8 */
@@ -69,4 +86,172 @@ a {
   border-radius: 6px;
   border: 1px solid #1ebfc1;
   text-align: center;
+}
+.sign-up:hover {
+  color: #fff;
+  background: #1ebfc1;
+  transition: 0.3s;
+}
+/* =========== Code phan hero ================= */
+.hero {
+  padding: 42px 0 79px;
+}
+.hero .body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* ------------- hero-content --------------- */
+.hero-content .highlight {
+  color: #767e7e;
+  font-size: 1.4rem;
+}
+.hero-content .heading {
+  width: 458px;
+  color: var(--primary-color);
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.16;
+  margin-top: 18px;
+}
+.hero-content .desc {
+  width: 374px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  margin-top: 46px;
+}
+.hero-content .desc span {
+  display: inline-block;
+}
+.hero-content .action {
+  margin-top: 52px;
+}
+.hero-content .watch-video {
+  border: none;
+  background: transparent;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  margin-left: 50px;
+  background: #fff;
+  box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.05);
+}
+.hero-content .watch-video:hover {
+  background: #eee;
+  box-shadow: 0px 0px 0px 0px rgba(196, 26, 134, 0.5);
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+/* ------------- hero-summary --------------- */
+.hero-summary {
+  position: relative;
+  flex-basis: 49.2%;
+}
+.hero-summary .img {
+  width: 576px;
+  height: 631px;
+  object-fit: cover;
+}
+.hero-summary .label {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  display: inline-block;
+}
+/* .......... Courese item ........ */
+.hero-summary .courses-item {
+  width: 157px;
+  height: 75px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -40px;
+  top: 149px;
+}
+.hero-summary .book-icon {
+  position: relative;
+  width: 36px;
+  height: 40px;
+}
+.hero-summary .book-icon img:last-child {
+  position: absolute;
+  bottom: 8px;
+  left: 4px;
+}
+.hero-summary .courses-item .label {
+  width: 55px;
+  margin-left: 16px;
+}
+/* .......... Schedule item ........ */
+.hero-summary .schedule-items {
+  width: 124px;
+  height: 132px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+  position: absolute;
+  bottom: 46px;
+  left: -65px;
+}
+.hero-summary .schedule-items .label {
+  margin: 16px 35px 0;
+}
+.hero-summary .schedule-icon {
+  display: block;
+  margin: 0 25px;
+  border-radius: 3px;
+}
+.hero-summary .schedule-icon.icon1 {
+  margin-top: 16px;
+}
+.hero-summary .schedule-icon.icon2 {
+  margin-top: 12px;
+}
+.hero-summary .schedule-icon.icon3 {
+  margin-top: 10px;
+}
+.hero-summary .schedule-icon.icon4 {
+  margin: 16px 49px 0;
+}
+/* ......... Member item ---------- */
+.hero-summary .members-item .label {
+  margin: 17px 35px 0;
+}
+.hero-summary .members-item {
+  position: absolute;
+  bottom: 41px;
+  right: 45px;
+  width: 207px;
+  height: 90px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0 12px 80px 0 rgba(0, 0, 0, 0.05);
+}
+.hero-summary .list-avatars {
+  display: flex;
+  justify-content: center;
+}
+.hero-summary .avatar {
+  margin-top: 8px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: -7px;
+}
+.hero-summary .avatar.see-more {
+  background: #1ebfc1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
 }
